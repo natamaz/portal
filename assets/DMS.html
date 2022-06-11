@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ДМС</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/DMS.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<div class="wrapper">
+
+
+
+
+    <!-- build:section layout.headerInterior-->
+    <!-- /build -->
+
+    <!-- build:section layout.popups-->
+    <!-- /build -->
+
+    <!-- build:section layout.polis-->
+    <!-- /build -->
+<section class="dms">
+    <div class="container">
+        <div class="form_step">
+            <div class="desktop_progressbar">
+                <div class="item">
+                    <i class="icon-003-shield"></i>
+                    <p>Страховка</p>
+                </div>
+                <div class="item">
+                    <i class="icon-003-employee"></i>
+                    <p>Страхователь</p>
+                </div>
+            </div>
+            <div class="step step_1 active">
+                <div class="mobail_progressbar">
+                    <i class="icon-003-shield"></i>
+                    <p>Страховка</p>
+                </div>
+                    <form>
+                        <h3>Укажите данные страхового полиса</h3>
+                        <div class="form_wrap">
+                            <div class="form_select">
+                                <label>Срок страхования</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                        <option>Месяц</option>
+                                        <option>Месяц</option>
+                                    </select>
+                            </div>
+                            <div class="form_input">
+                                <label>Дата начала действия</label>
+                                <input type="text" class="datepicker" placeholder="01.12.1986">
+                                <i class="icon-calendar"></i>
+                            </div>
+                        </div>
+                        <h3>Застрахованные</h3>
+                        <div class="form_wrap">
+                            <div class="form_input">
+                                <label >Фамилия</label>
+                                <input type="text"placeholder="Иванов">
+                            </div>
+                            <div class="form_input">
+                                <label>Имя</label>
+                                <input type="text"  placeholder="Иван">
+                            </div>
+                            <div class="form_input">
+                                <label >Отчество</label>
+                                <input type="text"  placeholder="Иванович">
+                            </div>
+                            <div class="form_input">
+                                <label>Дата рождения </label>
+                                <input type="text" class="datepicker" placeholder="01.12.1986">
+                                <i class="icon-calendar"></i>
+                            </div>
+                            <div class="clone_buttons">
+                                <a class="clone" href="jabascript:void(0)">Добавить застрахованного</a>
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <a class="next-step" href="jabascript:void(0)">Продолжить</a>
+                        </div>
+                    </form>
+            </div>
+            <div class="step step_2">
+                <div class="mobail_progressbar">
+                    <i class="icon-003-employee"></i>
+                    <p>Страхователь</p>
+                </div>
+                    <form>
+                        <h3>Данные страхователя</h3>
+                        <div class="form_wrap">
+                            <div class="form_input">
+                                <label for="surname">Фамилия</label>
+                                <input type="text" id="surname" placeholder="Иванов">
+                            </div>
+                            <div class="form_input">
+                                <label>Имя</label>
+                                <input type="text"placeholder="Иван">
+                            </div>
+                            <div class="form_input">
+                                <label>Отчество</label>
+                                <input type="text" placeholder="Иванович">
+                            </div>
+                            <div class="form_input">
+                                <label>Дата рождения</label>
+                                <input type="text" class="datepicker" placeholder="01.12.1986">
+                                <i class="icon-calendar"></i>
+                            </div>
+                            <div class="form_input">
+                                <label>Мобильный телефон</label>
+                                <input type="tel" class="phone" placeholder="+7 (___) ___ __ __">
+                            </div>
+                            <div class="form_input">
+                                <label>Электронная почта</label>
+                                <input type="text" >
+                            </div>
+                            <div class="form_select">
+                                <label>Тип документа</label>
+                                <div class="select">
+                                    <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                        <option>Выберете документ</option>
+                                        <option>Выберете документ</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form_input">
+                                <label>Серия паспорта</label>
+                                <input type="text" >
+                            </div>
+                            <div class="form_input">
+                                <label>Номер паспорта</label>
+                                <input type="text" >
+                            </div>
+                            <div class="form_input">
+                                <label>Дата выдачи</label>
+                                <input type="text" class="datepicker" placeholder="01.12.1986">
+                                <i class="icon-calendar"></i>
+                            </div>
+                            <div class="form_input organization">
+                                <label>Кем выдан</label>
+                                <input type="text" >
+                            </div>
+                        </div>
+                        <h3>Адрес регистрации</h3>
+                        <div class="form_wrap">
+                            <div class="form_select">
+                                <label>Регион</label>
+                                    <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                        <option>Выберете регион</option>
+                                        <option>Выберете регион</option>
+                                    </select>
+                            </div>
+                            <div class="form_select">
+                                <label>Населенный пункт</label>
+                                    <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                        <option>Выберете насел. пункт</option>
+                                        <option>Выберете  насел. пункт</option>
+                                    </select>
+                            </div>
+                            <div class="form_select street">
+                                <label>Улица</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                        <option>Выберете улицу</option>
+                                        <option>Выберете улицу</option>
+                                    </select>
+                                <div class="form_radio">
+                                    <input type="radio" name="group1" checked>
+                                    <label>Улица отсутсвует</label>
+                                </div>
+                            </div>
+                            <div class="form_input house">
+                                <label>Дом</label>
+                                <input type="text" >
+                            </div>
+                            <div class="form_input body">
+                                <label>Корпус/строение</label>
+                                <input type="text" >
+                            </div>
+                            <div class="form_input apartment">
+                                <label>Квартира</label>
+                                <input type="text"  placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <a class="next-step" href="jabascript:void(0)">Офрмить</a>
+                            <a class="prev-step" href="jabascript:void(0)">Назад к параметрам</a>
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- build:section layout.footer-->
+    <!-- /build -->
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/slick.min.js"></script>
+<script src="../js/jquery.matchHeight.min.js"></script>
+<script src="../js/jcf.min.js"></script>
+<script src="../js/jcf.radio.min.js"></script>
+<script src="../js/jcf.checkbox.min.js"></script>
+<script src="../js/jcf.select.min.js"></script>
+<script src="../js/jquery.mask.min.js"></script>
+<script src="../js/jquery-ui.min.js"></script>
+<script src="../js/jquery.responsiveTabs.min.js"></script>
+<script src="../js/script.min.js"></script>
+
+</body>
+
+</html>

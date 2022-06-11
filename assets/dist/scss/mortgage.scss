@@ -1,0 +1,271 @@
+.mortpage {
+  padding: 7px 0 100px 0;
+  background-color: #fafafa;
+  .container {
+    .form_step {
+      .step {
+        .mobail_progressbar{
+          margin-bottom: 25px;
+        }
+        .step1_content {
+            form {
+              .form_box{
+                .form_wrap {
+                  margin-bottom: 26px;
+                  .radio_box{
+                    .form_radio {
+                      margin: 0px 0px 18px 20px;
+                    }
+                  }
+                }
+                .left {
+                  margin-bottom: 0px;
+                  padding: 29px 0 0px 0px;
+                  .form_radio {
+                    margin: 28px 0px 20px 20px;
+                  }
+                }
+                .right {
+                  padding: 0px 0 0 0;
+                  margin-bottom: 0;
+                  .form_radio {
+                    margin: 10px 0px 0px 0px;
+                    padding: 0px 0 0px 0px;
+                    .wrap{
+                      margin-left: 18px;
+                      margin-top: 35px;
+                    }
+                  }
+                }
+
+            }
+              .form-buttons{
+                padding: 0px 0 50px 0;
+                margin-top: 0px;
+                a{
+                  font-weight: 400;
+                  margin: 32px auto;
+                }
+              }
+          }
+            .about_text {
+            display: none;
+
+          }
+        }
+        form{
+          border-bottom: none;
+          .form_wrap {
+            .radio_box{
+              .form_radio {
+                margin: 28px 0px 20px 20px;
+              }
+            }
+            .form_radio {
+              margin: 28px 0px 20px 20px;
+            }
+          }
+        }
+
+      }
+      .step_4{
+        form{
+          .form_info{
+            p{
+              margin: 17px 0 17px 0;
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+@media screen and (min-width:480px){
+
+}
+@media screen and (min-width: 768px){
+  .mortpage{
+    padding: 25px 0 100px 0;
+    .container{
+      .form_step{
+        .step{
+          .step1_content{
+            display: flex;
+            flex-direction: row;
+            form{
+              width: calc(50% - 15px);
+              flex-direction: column;
+              .form_box{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .left{
+                  width: calc(70% - 15px);
+                  flex-direction: column;
+                  padding: 0;
+                  .form_radio {
+                    margin: 12px 0px 20px 0px;
+                  }
+                  .form_input{
+                    width: 100%;
+                  }
+
+                }
+                .right{
+                  width: calc(30% - 15px);
+                  flex-direction: column;
+
+                  .form_radio {
+                    margin: 0;
+                    .wrap{
+                      margin-left: 0px;
+                      margin-top: 10px;
+                    }
+                  }
+                }
+              }
+              .form-buttons{
+                margin-top: 6px;
+                a{
+                  width: auto;
+                  padding: 0 43px 0 43px;
+                }
+              }
+            }
+            .about_text{
+              width: calc(50% - 15px);
+              display: block;
+              box-shadow: 0 0 11px rgba(104, 105, 114, 0.15);
+              border-radius: 10px 10px 0;
+              background-color: #ffffff;
+              width: 350px;
+              height: 380px;
+              margin: 52px 0 0 39px;
+              padding: 25px 30px 15px 22px;
+              h3{
+                color: #31ae95;
+                font-family: 'Roboto-Medium';
+                font-size: 18px;
+                font-weight: 500;
+              }
+              p{
+                color: #4a4b50;
+                font-family: 'Roboto-Regular';
+                font-size: 16px;
+                font-weight: 400;
+                padding: 5px 0 32px 0px;
+              }
+            }
+
+          }
+          form{
+            .form_wrap {
+              .radio_box{
+                .form_radio {
+                  margin: 12px 0px 20px 0px;
+                }
+              }
+              .form_radio {
+                margin: 12px 0px 20px 0px;
+              }
+            }
+          }
+        }
+        .step_2{
+          form{
+            .form_wrap{
+              display: flex;
+              flex-direction: row;
+              .radio_box{
+                width: 100%;
+                .radio_block{
+                  display: flex;
+                  .form_radio{
+                    margin: 12px 15px 20px 0px;
+                  }
+                }
+              }
+            }
+            .form-buttons{
+              margin-top: 6px;
+              a{
+                width: auto;
+                padding: 0 43px 0 43px;
+              }
+            }
+          }
+        }
+        .step_3{
+          form{
+            .form_wrap{
+              display: flex;
+              flex-direction: row;
+            }
+            .form-buttons{
+              margin-top: 6px;
+              a{
+                width: auto;
+                padding: 0 43px 0 43px;
+              }
+            }
+          }
+        }
+        .step_4{
+          form{
+            .form_info{
+             display: none;
+            }
+            .form_wrap{
+              display: flex;
+              flex-direction: column;
+            }
+            .form-buttons{
+              margin-top: 6px;
+              a{
+                width: auto;
+                padding: 0 43px 0 43px;
+
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+@media screen and (min-width: 1024px){
+
+}
+@media screen and (min-width: 1260px){
+  .mortpage{
+    .container{
+      .form_step{
+        .step{
+          .step1_content{
+            .about_text{
+              width: 620px;
+              height: 281px;
+            }
+            form{
+              .form-buttons{
+                a{
+                  width: auto;
+                  padding: 0 43px 0 43px;
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

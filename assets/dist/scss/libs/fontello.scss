@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?63630194');
+  src: url('../fonts/fontello.eot?63630194#iefix') format('embedded-opentype'),
+  url('../fonts/fontello.woff2?63630194') format('woff2'),
+  url('../fonts/fontello.woff?63630194') format('woff'),
+  url('../fonts/fontello.ttf?63630194') format('truetype'),
+  url('../fonts/fontello.svg?63630194#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?63630194#fontello') format('svg');
+  }
+}
+*/
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-right-arrow:before { content: '\e800'; } /* '' */
+.icon-megaphone:before { content: '\e801'; } /* '' */
+.icon-investment:before { content: '\e802'; } /* '' */
+.icon-instagram:before { content: '\e803'; } /* '' */
+.icon-user-male-black-shape:before { content: '\e804'; } /* '' */
+.icon-001-checklist-1:before { content: '\e805'; } /* '' */
+.icon-001-logo:before { content: '\e806'; } /* '' */
+.icon-001-money:before { content: '\e807'; } /* '' */
+.icon-002-24-hours:before { content: '\e808'; } /* '' */
+.icon-002-insurance:before { content: '\e809'; } /* '' */
+.icon-002-steering-wheel:before { content: '\e80a'; } /* '' */
+.icon-002-profits:before { content: '\e80b'; } /* '' */
+.icon-002-vk:before { content: '\e80c'; } /* '' */
+.icon-003-employee:before { content: '\e80d'; } /* '' */
+.icon-003-innovation:before { content: '\e80e'; } /* '' */
+.icon-003-money:before { content: '\e80f'; } /* '' */
+.icon-004-insurance:before { content: '\e810'; } /* '' */
+.icon-004-man:before { content: '\e811'; } /* '' */
+.icon-004-work:before { content: '\e812'; } /* '' */
+.icon-003-life-insurance:before { content: '\e813'; } /* '' */
+.icon-business-and-finance:before { content: '\e814'; } /* '' */
+.icon-calendar:before { content: '\e815'; } /* '' */
+.icon-check-mark:before { content: '\e816'; } /* '' */
+.icon-down-arrow:before { content: '\e817'; } /* '' */
+.icon-fire:before { content: '\e818'; } /* '' */
+.icon-car:before { content: '\e819'; } /* '' */
+.icon-002-deal:before { content: '\e81a'; } /* '' */
+.icon-001-checklist:before { content: '\e81b'; } /* '' */
+.icon-003-shield:before { content: '\e81c'; } /* '' */
+.icon-user:before { content: '\e81d'; } /* '' */
+.icon-001-car-insurance:before { content: '\e81e'; } /* '' */
+.icon-check-mark-1:before { content: '\e821'; } /* '' */
+.icon-005-travel:before { content: '\e823'; } /* '' */
+.icon-004-work-1:before { content: '\e824'; } /* '' */
+.icon-docs:before { content: '\f0c5'; } /* '' */
+

@@ -1,0 +1,44 @@
+.kasko{
+  padding: 25px 0 100px 0;
+  background-color: #fafafa;
+  .container{
+    form{
+      border-bottom: none;
+    }
+  }
+
+}
+
+
+
+@media screen and (min-width:480px){
+
+}
+@media screen and (min-width: 768px){
+  .container {
+    form {
+      .form_wrap{
+        display: flex;
+        flex-direction: row;
+        .form_radio{
+          width: 100%;
+        }
+        }
+      .form-buttons{
+        margin-top: 6px;
+        a{
+          width: auto;
+          padding: 0 43px 0 43px;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+}
+@media screen and (min-width: 1024px){
+
+}
+@media screen and (min-width: 1260px){
+
+}

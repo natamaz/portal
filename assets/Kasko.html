@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>КАСКО</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/Kasko.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<div class="wrapper">
+
+
+
+
+    <!-- build:section layout.headerInterior-->
+    <!-- /build -->
+
+    <!-- build:section layout.popups-->
+    <!-- /build -->
+
+    <!-- build:section layout.polis-->
+    <!-- /build -->
+    <section class="kasko">
+        <div class="container">
+            <div class="form_step">
+                <div class="desktop_progressbar">
+                    <div class="item">
+                        <i class="icon-001-car-insurance"></i>
+                        <p>Страховка</p>
+                    </div>
+                    <div class="item">
+                        <i class="icon-003-employee"></i>
+                        <p>Страхователь</p>
+                    </div>
+                    <div class="item">
+                        <i class="icon-investment"></i>
+                        <p>КАСКО</p>
+                    </div>
+
+                </div>
+                <div class="step step_1 active">
+                    <div class="mobail_progressbar">
+                        <i class="icon-001-car-insurance"></i>
+                        <p>Автомобиль</p>
+                    </div>
+                    <form>
+                        <h3>Автомобиль</h3>
+                        <div class="form_wrap">
+                            <div class="form_select">
+                                <label>Марка</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>Выберите марку</option>
+                                    <option>Выберите марку</option>
+                                </select>
+                            </div>
+                            <div class="form_select">
+                                <label>Модель</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>Выберите модель</option>
+                                    <option>Выберите модель</option>
+                                </select>
+                            </div>
+                            <div class="form_select">
+                                <label>Год выпуска</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>2017</option>
+                                    <option>2017</option>
+                                </select>
+                            </div>
+                            <div class="form_select">
+                                <label>Мощность, л.с.</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>100</option>
+                                    <option>100</option>
+                                </select>
+                            </div>
+                            <div class="form_select">
+                                <label>Коробка передач</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>Механическая</option>
+                                    <option>Механическая</option>
+                                </select>
+                            </div>
+                            <div class="form_input">
+                                <label>Регион</label>
+                                <input type="text" placeholder="7777">
+                            </div>
+                            <div class="form_input">
+                                <label>Пробег</label>
+                                <input type="text" placeholder="10 000 км">
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <a class="next-step" href="jabascript:void(0)">Продолжить</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="step step_2">
+                    <div class="mobail_progressbar">
+                        <i class="icon-003-employee"></i>
+                        <p>Страхователь</p>
+                    </div>
+                    <form>
+                        <h3>Данные страхователя</h3>
+                        <div class="form_wrap">
+                            <div class="form_input">
+                                <label for="surname">Фамилия</label>
+                                <input type="text" id="surname" placeholder="Иванов">
+                            </div>
+                            <div class="form_input">
+                                <label>Имя</label>
+                                <input type="text"placeholder="Иван">
+                            </div>
+                            <div class="form_input">
+                                <label>Отчество</label>
+                                <input type="text" placeholder="Иванович">
+                            </div>
+                            <div class="form_input">
+                                <label>Номер телефона</label>
+                                <input class="phone" type="text" placeholder="+7 900 --- -- --">
+                            </div>
+                            <div class="form_input">
+                                <label>Электронная почта</label>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="form_input">
+                                <label>Мин. возраст водителей</label>
+                                <input type="text" placeholder="35">
+                            </div>
+                            <div class="form_input">
+                                <label>Мин. стаж вождения</label>
+                                <input type="text" placeholder="2 года">
+                            </div>
+                            <div class="form_radio">
+                                <input type="radio" name="tabs" checked>
+                                <label>были ДТП за прошлый год</label>
+                            </div>
+                            <div class="form_radio">
+                                <input type="radio" name="tabs" checked>
+                                <label>Владею авто больше полугода</label>
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <a class="next-step" href="jabascript:void(0)">Продолжить</a>
+                            <a class="prev-step" href="jabascript:void(0)">Назад к авто</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="step step_3">
+                    <div class="mobail_progressbar">
+                        <i class="icon-investment"></i>
+                        <p>КАСКО</p>
+                    </div>
+                    <form>
+                        <h3>Параметры КАСКО</h3>
+                        <div class="form_wrap">
+                            <div class="form_input">
+                                <label>Стоимость автомобиля</label>
+                                <input type="text" placeholder="100 000 руб.">
+                            </div>
+                            <div class="form_select">
+                                <label>Покрытие</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>Ущерб + Полная гибель</option>
+                                    <option>Ущерб + Полная гибель</option>
+                                </select>
+                            </div>
+                            <div class="form_select">
+                                <label>Тип ремонта</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>Дилерский центр</option>
+                                    <option>Дилерский центр</option>
+                                </select>
+                            </div>
+                            <div class="form_select">
+                                <label>Срок страховки КАСКО</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>Месяц</option>
+                                    <option>Месяц</option>
+                                </select>
+                            </div>
+                            <div class="form_radio">
+                                <input type="radio" name="radio1-1" checked>
+                                <label>ДАГО</label>
+                                <p>
+                                    Выплаты до 1 млн рублей вместо 400 тысяч при аварии по вашей вине
+                                </p>
+                            </div>
+                            <div class="form_radio">
+                                <input type="radio" name="radio1-2" checked>
+                                <label>Гарантия стоимости</label>
+                                <p>Страховая сумма не изменится в течение срока действия договора (GAP)</p>
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <a class="next-step" href="jabascript:void(0)">Оформить</a>
+                            <a class="prev-step" href="jabascript:void(0)">Назад к страховатилю</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- build:section layout.footer-->
+    <!-- /build -->
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery.mask.min.js"></script>
+<script src="../js/slick.min.js"></script>
+<script src="../js/jquery.matchHeight.min.js"></script>
+<script src="../js/jcf.min.js"></script>
+<script src="../js/jcf.radio.min.js"></script>
+<script src="../js/jcf.checkbox.min.js"></script>
+<script src="../js/jcf.select.min.js"></script>
+
+<script src="../js/jquery-ui.min.js"></script>
+<script src="../js/jquery.responsiveTabs.min.js"></script>
+<script src="../js/script.min.js"></script>
+
+</body>
+
+</html>

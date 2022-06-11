@@ -1,0 +1,351 @@
+.polispage{
+  padding: 20px 0 100px 0;
+  background-color: #fafafa;
+  .container{
+    form{
+      h4{
+        margin: 17px 0 0px 0;
+        font-size: 18px;
+      }
+      .form_wrap{
+        padding: 15px 0 0px 0px;
+        .form_input{
+          margin-bottom: 27px;
+          .block{
+            display: flex;
+            flex-direction: column;
+            .from_date{
+              margin: 0 0 22px 0;
+              input{
+                border-radius: 5px ;
+              }
+              position: relative;
+            }
+            .to_date{
+              margin: 0 0 22px 0;
+              input{
+                border-radius:5px ;
+              }
+              position: relative;
+            }
+          }
+        }
+      }
+      .form-buttons{
+        padding: 0;
+        margin-top: 0px;
+        a{
+          margin: 26px auto;
+        }
+        .prev{
+          background-color: #fff;
+          border: 2px solid #31ae95;
+          color: #31ae95;
+          font-family: 'Roboto-Regular';
+          &:hover{
+            background-color: #2e9e88;
+            cursor: pointer;
+            color: #ffffff;
+            &:after{
+              color: #ffffff;
+              border: 1px solid #ffffff;
+            }
+          }
+        }
+
+      }
+    }
+    .form_result{
+      padding: 12px 0 0 0;
+      .tabs-box{
+        .tabs {
+          flex-direction: column;
+          li{
+            width: auto;
+            margin: 18px 19px 0px 0;
+            padding: 0 29px 0 25px;
+            cursor: pointer;
+          }
+        }
+        .tab_container{
+          .tab_content{
+            overflow-x: auto;
+            .table_result {
+              overflow-x: scroll;
+              margin-top: 30px;
+              width: 100%;
+              border-collapse: collapse;
+              border-top: 1px solid #d7d8df;
+              border-bottom: 1px solid #d7d8df;
+              font-family: 'Roboto-Regular';
+            }
+            .table_result td, .table_result th {
+              padding: 10px;
+              height: 60px;
+              font-family: 'Roboto-Regular';
+              border-right: 1px solid #d7d8df;
+            }
+            .table_result tr :last-child{
+
+            }
+            .table_result td:last-child{
+              border-right: none;
+            }
+            .table_result th {
+              text-align: left;
+              color: #2c2c2c;
+              font-size: 16px;
+              font-weight: 700;
+            }
+            .table_result td {
+              text-align: left;
+              color: #2c2c2c;
+              font-size: 16px;
+              font-weight: 400;
+            }
+            .table_result tr:nth-child(2n) {
+              background: #f1f1f4;
+            }
+            .table_result td:last-of-type {
+              text-align: center;
+            }
+            .table_result a {
+              border-radius: 20px;
+              border: 2px solid #37b99f;
+              background-color: #fff;
+              display: inline-block;
+              padding: 5px 23px;
+              position: relative;
+              color: #37b99f;
+              cursor: pointer;
+            }
+            .table_result a:hover {
+              background-color: #37b99f;
+              color: #fff;
+            }
+          }
+        }
+      }
+      .pagination{
+        display: flex;
+        position: relative;
+        margin-top: 20px;
+
+        .prev{
+          color: #2c2c2c;
+          font-family: 'Roboto-Regular';
+          font-size: 14px;
+          font-weight: 300;
+          position: absolute;
+          top: -4px;
+          left: 14px;
+          &:focus {
+            color: #37b99f;
+          }
+        }
+        .next{
+          position: absolute;
+          color: #2c2c2c;
+          font-family: 'Roboto-Regular';
+          font-size: 14px;
+          font-weight: 300;
+          top: -4px;
+          right: 14px;
+          &:focus {
+            color: #37b99f;
+          }
+        }
+        ul{
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          padding: 0 20% 0 20%;
+          li{
+            margin-top: 40px;
+            a{
+              color: #191919;
+              font-family: 'Roboto-Regular';
+              font-size: 16px;
+              font-weight: 300;
+              padding: 5px 5px 5px 5px;
+              width: 23px;
+              height: 23px;
+              display: flex;
+              justify-content: center;
+              line-height: 14px;
+              &:focus {
+                border-radius: 50%;
+                color: #fff;
+                background-color: #37b99f;
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media screen and (min-width:480px){
+
+}
+@media screen and (min-width: 768px){
+  .polispage{
+    padding: 0px 0 100px 0;
+    .container{
+      form{
+        padding: 55px 0 0 8px;
+        h3{
+          padding: 0 0 0px 0px;
+        }
+        h4{
+          margin: 10px 0 0px 0;
+        }
+        .form_wrap{
+          .form_input{
+            .block{
+              display: flex;
+              flex-direction: row;
+              .from_date{
+                margin: 0;
+                input{
+                  border-radius: 5px 0 0 5px ;
+                }
+                position: relative;
+              }
+              .to_date{
+                margin: 0;
+                input{
+                  border-radius:  0  5px  5px 0 ;
+                }
+                position: relative;
+              }
+            }
+          }
+        }
+        .form-buttons{
+          a{
+            width: auto;
+            padding: 0 25px 0 25px;
+            margin: 44px 28px 51px 0;
+          }
+        }
+      }
+      .form_result{
+        .pagination{
+          display: flex;
+          justify-content: center;
+          .prev{
+            position: relative;
+            top: 42px;
+          }
+          .next{
+            position: relative;
+            top: 42px;
+          }
+          ul{
+            padding: 0 3% 0 3%;
+            width: 30%;
+            justify-content: center;
+
+          }
+        }
+        .tabs-box{
+          .tabs {
+            flex-direction: row;
+            justify-content: flex-start;
+            li{
+              width: auto;
+              margin: 18px 19px 0px 0;
+              padding: 0 29px 0 25px;
+              cursor: pointer;
+            }
+          }
+          .tab_container{
+            .tab_content{
+              overflow-x: scroll;
+              .table_result {
+                overflow-x: scroll;
+                margin-top: 30px;
+                width: 100%;
+                border-collapse: collapse;
+                border-top: 1px solid #d7d8df;
+                border-bottom: 1px solid #d7d8df;
+                font-family: 'Roboto-Regular';
+              }
+              .table_result td, .table_result th {
+                padding: 10px;
+                height: 60px;
+                font-family: 'Roboto-Regular';
+                border-right: 1px solid #d7d8df;
+              }
+              .table_result tr :last-child{
+
+              }
+              .table_result td:last-child{
+                border-right: none;
+              }
+              .table_result th {
+                text-align: left;
+                color: #2c2c2c;
+                font-size: 16px;
+                font-weight: 700;
+              }
+              .table_result td {
+                text-align: left;
+                color: #2c2c2c;
+                font-size: 16px;
+                font-weight: 400;
+              }
+              .table_result tr:nth-child(2n) {
+                background: #f1f1f4;
+              }
+              .table_result td:last-of-type {
+                text-align: center;
+              }
+              .table_result a {
+                border-radius: 20px;
+                border: 2px solid #37b99f;
+                background-color: #fff;
+                display: inline-block;
+                padding: 5px 23px;
+                position: relative;
+                color: #37b99f;
+                cursor: pointer;
+              }
+              .table_result a:hover {
+                background-color: #37b99f;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+@media screen and (min-width: 1024px){
+  .polispage{
+    .container {
+      form {
+        .form_wrap {
+          .form_input {
+
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1260px){
+  .polispage{
+    .container{
+
+    }
+  }
+}

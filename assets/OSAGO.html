@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ОСАГО</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/OSAGO.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<div class="wrapper">
+
+
+    <!-- build:section layout.headerInterior-->
+    <!-- /build -->
+
+    <!-- build:section layout.popups-->
+    <!-- /build -->
+
+    <!-- build:section layout.polis-->
+    <!-- /build -->
+
+
+<!-- osago_form -->
+<section class="osago">
+        <div class="container">
+            <div class="form_step">
+                <div class="desktop_progressbar">
+                    <div class="item">
+                        <i class="icon-001-car-insurance"></i>
+                        <p>Автомобиль</p>
+                    </div>
+                    <div class="item">
+                        <i class="icon-002-steering-wheel"></i>
+                        <p>Водители</p>
+                    </div>
+                    <div class="item">
+                        <i class="icon-003-employee"></i>
+                        <p>Страхователь</p>
+                    </div>
+                    <div class="item">
+                        <i class="icon-004-man"></i>
+                        <p>Собственник</p>
+                    </div>
+                </div>
+                <div class="step step_1 active">
+                    <div class="mobail_progressbar">
+                        <i class="icon-001-car-insurance"></i>
+                        <p>Автомобиль</p>
+                    </div>
+                    <form>
+                        <h3>Автомобиль</h3>
+                        <div class="wrap_group">
+                            <div class="form_wrap">
+                                <div class="form_select">
+                                    <label>Марка</label>
+                                    <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                        <option>Выберите марку</option>
+                                        <option>Выберите марку</option>
+                                    </select>
+                                </div>
+                                <div class="form_select">
+                                    <label>Модель</label>
+                                    <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                        <option>Выберите модель</option>
+                                        <option>Выберите модель</option>
+                                    </select>
+                                </div>
+                                <div class="form_select">
+                                    <label>Год выпуска</label>
+                                    <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                        <option>2017</option>
+                                        <option>2017</option>
+                                    </select>
+                                </div>
+                                <div class="form_select">
+                                    <label>Мощность, л.с.</label>
+                                    <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                        <option>100</option>
+                                        <option>100</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form_wrap">
+                                <div class="form_input">
+                                    <label>Идентификатор ТС</label>
+                                    <div class="form_radio">
+                                        <input type="radio" name="tabs" >
+                                        <label>VIN номер</label>
+                                    </div>
+                                    <div class="form_radio">
+                                        <input type="radio" name="tabs" >
+                                        <label>Номер кузова</label>
+                                    </div>
+                                    <div class="form_radio">
+                                        <input type="radio" name="tabs" >
+                                        <label>Номер шасси</label>
+                                    </div>
+                                    <input type="text" placeholder="DGRETY4674UJFY365H">
+                                </div>
+                                <div class="form_input">
+                                    <label>Документ на автомобиль</label>
+                                    <div class="form_radio">
+                                        <input type="radio" name="tabs" >
+                                        <label>СТС</label>
+                                    </div>
+                                    <div class="form_radio">
+                                        <input type="radio" name="tabs" >
+                                        <label>ПТС</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_wrap">
+                            <div class="form_input">
+                                <label>Серия</label>
+                                <input type="text" placeholder="ХХХХ">
+                            </div>
+                            <div class="form_input">
+                                <label>Дата выдачи документа</label>
+                                <input type="text" class="datepicker hasDatepicker" placeholder="01.12.1986" id="dp1566308853337">
+                                <i class="icon-calendar"></i>
+                            </div>
+                            <div class="form_input">
+                                <label>Номер</label>
+                                <input type="text" placeholder="123456">
+                            </div>
+                            <div class="form_input">
+                                <label>Гос. номер авто</label>
+                                <input type="text" placeholder="А000АА">
+                            </div>
+                            <div class="form_input">
+                                <label>Регион</label>
+                                <input type="text" placeholder="7777">
+                            </div>
+                            <div class="form_radio">
+                                <input type="radio" name="radio_1" >
+                                <label>Гос. номер отсутствует</label>
+                            </div>
+                            <h4>Дополнительные сведения</h4>
+                            <div class="form_radio">
+                                <input type="radio" name="radio_2" >
+                                <label>Используется с прицепом</label>
+                            </div>
+                        </div>
+                        <h3>Диагностическая карта(Техосмотр)</h3>
+                        <div class="form_wrap">
+                            <div class="form_input">
+                                <label>Номер ДК</label>
+                                <input type="text" placeholder="Укажите номер">
+                            </div>
+                            <div class="form_input">
+                                <label>Срок действия до</label>
+                                <input type="text" class="datepicker hasDatepicker" placeholder="01.12.1986" id="dp1566308853337">
+                                <i class="icon-calendar"></i>
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <a class="next-step" href="jabascript:void(0)">Продолжить</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="step step_2">
+                    <div class="mobail_progressbar">
+                        <i class="icon-002-steering-wheel"></i>
+                        <p>Водитель</p>
+                    </div>
+                    <form>
+                        <h3>Водители</h3>
+                        <div class="form_wrap">
+                            <div class="form_radio">
+                                <input type="radio" name="tabs" checked>
+                                <label>1 и более</label>
+                            </div>
+                            <div class="form_radio">
+                                <input type="radio" name="tabs" checked>
+                                <label>Неограниченное количество</label>
+                            </div>
+                        </div>
+                        <div class="form_wrap">
+                            <div class="form_input">
+                                <label for="surname">Фамилия</label>
+                                <input type="text" id="surname" placeholder="Иванов">
+                            </div>
+                            <div class="form_input">
+                                <label>Имя</label>
+                                <input type="text"placeholder="Иван">
+                            </div>
+                            <div class="form_input">
+                                <label>Отчество</label>
+                                <input type="text" placeholder="Иванович">
+                            </div>
+                            <div class="form_input">
+                                <label>Дата рождения</label>
+                                <input type="text" class="datepicker hasDatepicker" placeholder="01.12.1986" id="dp1566308853337">
+                                <i class="icon-calendar"></i>
+                            </div>
+                        </div>
+                        <h3>Водительское удостоверение</h3>
+                        <div class="form_wrap">
+                            <div class="form_input">
+                                <label>Серия</label>
+                                <input type="text" placeholder="ХХХХ">
+                            </div>
+                            <div class="form_input">
+                                <label>Номер ВУ</label>
+                                <input type="text" placeholder="123456">
+                            </div>
+                            <div class="form_input">
+                                <label>Дата выдачи первого ВУ</label>
+                                <input type="text" class="datepicker hasDatepicker" placeholder="01.12.1986" id="dp1566308853337">
+                                <i class="icon-calendar"></i>
+                            </div>
+                            <div class="clone_buttons">
+                                <a  class="clone" href="jabascript:void(0)">Добавить 2-го водителя</a>
+                            </div>
+                        </div>
+
+                        <div class="form-buttons">
+                            <a class="next-step" href="jabascript:void(0)">Продолжить</a>
+                            <a class="prev-step" href="jabascript:void(0)">Назад к авто</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="step step_3">
+                    <div class="mobail_progressbar">
+                        <i class="icon-003-employee"></i>
+                        <p>Страхователь</p>
+                    </div>
+                    <form>
+                        <h3>Страхователь авто</h3>
+                        <div class="form_wrap">
+                            <div class="form_radio">
+                                <input type="radio" name="tabs" checked>
+                                <label>Иванов И. И.</label>
+                            </div>
+                            <div class="form_radio">
+                                <input type="radio" name="tabs" checked>
+                                <label>Другой</label>
+                            </div>
+                        </div>
+                        <div class="form_wrap">
+                            <div class="form_input">
+                                <label for="surname">Фамилия</label>
+                                <input type="text" id="surname" placeholder="Иванов">
+                            </div>
+                            <div class="form_input">
+                                <label>Имя</label>
+                                <input type="text"placeholder="Иван">
+                            </div>
+                            <div class="form_input">
+                                <label>Отчество</label>
+                                <input type="text" placeholder="Иванович">
+                            </div>
+                            <div class="form_input">
+                                <label>Дата рождения</label>
+                                <input type="text" class="datepicker" placeholder="01.12.1986">
+                                <i class="icon-calendar"></i>
+                            </div>
+                            <div class="form_input">
+                                <label>Серия паспорта</label>
+                                <input type="text" >
+                            </div>
+                            <div class="form_input">
+                                <label>Номер паспорта</label>
+                                <input type="text" >
+                            </div>
+                            <div class="form_input">
+                                <label>Дата выдачи</label>
+                                <input type="text" class="datepicker" placeholder="01.12.1986">
+                                <i class="icon-calendar"></i>
+                            </div>
+                        </div>
+                        <h3>Адрес регистрации</h3>
+                        <div class="form_wrap">
+                            <div class="form_select">
+                                <label>Регион</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>Выберете регион</option>
+                                    <option>Выберете регион</option>
+                                </select>
+                            </div>
+                            <div class="form_select">
+                                <label>Населенный пункт</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>Выберете насел. пункт</option>
+                                    <option>Выберете насел. пункт</option>
+                                </select>
+                            </div>
+                            <div class="form_select street">
+                                <label>Улица</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>Выберете улицу</option>
+                                    <option>Выберете улицу</option>
+                                </select>
+                                <div class="form_radio">
+                                    <input type="radio" name="tabs" checked>
+                                    <label>Улица отсутсвует</label>
+                                </div>
+                            </div>
+                            <div class="form_input house">
+                                <label>Дом</label>
+                                <input type="text" >
+                            </div>
+                            <div class="form_input body">
+                                <label>Корпус/строение</label>
+                                <input type="text" >
+                            </div>
+                            <div class="form_input apartment">
+                                <label>Квартира</label>
+                                <input type="text"placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <a class="next-step" href="jabascript:void(0)">Продолжить</a>
+                            <a class="prev-step" href="jabascript:void(0)">Назад к водителям</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="step step_4">
+                    <div class="mobail_progressbar">
+                        <i class="icon-004-man"></i>
+                        <p>Собственник</p>
+                    </div>
+                    <form>
+                        <h3>Собственник авто</h3>
+                        <div class="form_wrap">
+                            <div class="form_radio">
+                                <input type="radio" name="tabs" checked>
+                                <label>Собственник и страхователь совпадают</label>
+                            </div>
+                            <div class="form_radio">
+                                <input type="radio" name="tabs" checked>
+                                <label>Другой</label>
+                            </div>
+                        </div>
+                        <div class="form_wrap">
+                            <h5>Иванов Иван Иванович</h5>
+                            <div class="info">
+                                <div class="polis_info">
+                                    <p>Паспорт:</p>
+                                    <ul>
+                                        <li>Дата рождения: 28.12.1988, </li>
+                                        <li>Серия и номер паспорта: 2342 645645, </li>
+                                        <li>Выдан: 05.02.2014</li>
+                                    </ul>
+                                </div>
+                                <div class="polis_info">
+                                    <p>Адрес:</p>
+                                    <ul>
+                                        <li>Московская обл,</li>
+                                        <li>55 км автодороги Москва-Дубна тер,</li>
+                                        <li>д. 34, корп. 2, кв. 34</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Сведения о полисе</h3>
+                        <div class="form_wrap">
+                            <div class="form_select">
+                                <label>Срок действия полиса</label>
+                                <select data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                                    <option>12 мес</option>
+                                    <option>12 мес</option>
+                                </select>
+                            </div>
+                            <div class="form_input">
+                                <div class="input_box">
+                                    <label>Дата начала действия полиса</label>
+                                    <input type="text" class="datepicker hasDatepicker" placeholder="01.12.1986" id="dp1566308853337">
+                                    <i class="icon-calendar"></i>
+                                </div>
+                                <span>Если полис необходим сегодня, поменяйте дату. Но обращайте внимание, что в таком случае список страховых сильно ограничен.</span>
+                            </div>
+                            <div class="form_input">
+                                <label>Номер телефона</label>
+                                <input class="phone" type="text" placeholder="+7 900 --- -- --">
+                                <p>Согласно указанию ЦБ РФ № 4723-У, для оформления е-ОСАГО используется номер телефона клиента.</p>
+                            </div>
+                            <div class="form_radio">
+                                <input type="radio" name="tabs" checked>
+                                <label>Оформить страховку от несчастного случая</label>
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <a class="check" href="jabascript:void(0)">Проверить правильность введенных данных</a>
+                            <a class="next-step" href="jabascript:void(0)">Офрмить</a>
+                            <a class="prev-step" href="jabascript:void(0)">Назад к параметрам</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- End osago_form -->
+
+
+    <!-- build:section layout.footer-->
+    <!-- /build -->
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/slick.min.js"></script>
+<script src="../js/jquery.matchHeight.min.js"></script>
+<script src="../js/jcf.min.js"></script>
+<script src="../js/jcf.radio.min.js"></script>
+<script src="../js/jcf.checkbox.min.js"></script>
+<script src="../js/jcf.select.min.js"></script>
+<script src="../js/jquery.mask.min.js"></script>
+<script src="../js/jquery-ui.min.js"></script>
+<script src="../js/jquery.responsiveTabs.min.js"></script>
+<script src="../js/script.min.js"></script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,154 @@
+.osago {
+  padding: 25px 0 100px 0;
+  background-color: #fafafa;
+  .container {
+    form {
+      border-bottom: none;
+      .form-buttons {
+        .check {
+          font-size: 14px;
+          line-height: 14px;
+        }
+      }
+
+    }
+    .form_step{
+      form{
+        .form_wrap{
+          .form_input{
+            p{
+              color: #b61427;
+              font-size: 12px;
+            }
+            span{
+              font-size: 12px;
+            }
+          }
+          .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .polis_info{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:480px){
+
+}
+@media screen and (min-width: 768px) {
+  .osago {
+    .container {
+      form {
+        .wrap_group{
+          display: flex;
+          flex-direction: row;
+          .form_wrap{
+            width: calc(100% / 2 - 21px);
+            .form_input{
+              width: 100%;
+            }
+            .form_select{
+              width: 100%;
+            }
+          }
+        }
+
+        .form-buttons {
+          margin-top: 6px;
+          flex-wrap: wrap;
+          .check {
+            padding: 17px 13px 17px 13px;
+            width: 100%;
+          }
+          a {
+            width: auto;
+            padding: 5px 43px 5px 43px;
+          }
+        }
+      }
+      .form_step{
+        form{
+          .form_wrap {
+            display: flex;
+            flex-direction: row;
+            .form_radio {
+              width: 100%;
+            }
+            .info{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              .polis_info{
+                width: calc(100% / 2 - 21px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px){
+ .osago{
+   .container{
+     .form_step{
+       form{
+         .form_wrap{
+           .info{
+             width: 100%;
+           }
+         }
+         .form-buttons{
+           a{
+             margin: 0 40px 0px 0;
+           }
+           .check{
+             width: 37%;
+             margin: 0 43px 0 0;
+           }
+         }
+       }
+     }
+   }
+ }
+}
+@media screen and (min-width: 1260px){
+  .osago{
+    .container{
+      form{
+        .wrap_group{
+          .form_wrap{
+            .form_input{
+              width: calc(100% / 2 - 21px);
+            }
+            .form_select{
+              width: calc(100% / 2 - 21px);
+            }
+            .form_radio{
+              margin-top: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

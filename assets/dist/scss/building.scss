@@ -1,0 +1,145 @@
+.building{
+  padding: 27px 0 100px 0;
+  background-color: #fafafa;
+  .container{
+    form{
+      border-bottom: none;
+      p{
+        padding: 28px 0 0 0;
+      }
+      .form_wrap{
+        padding: 30px 0 16px 0px;
+      }
+      .form-buttons{
+        border-top: 1px solid #d7d8df;
+        padding: 2px 0 50px 0;
+        margin-top: 17px;
+      }
+    }
+    .form_result{
+      display: none;
+      h3{
+        color: #2c2c2c;
+        font-family: 'Roboto-Regular';
+        font-size: 20px;
+        font-weight: 400;
+        padding: 30px 0;
+      }
+      .result_content{
+        display: flex;
+        flex-direction: column;
+        .result_box{
+          width: 296px;
+          height: 252px;
+          box-shadow: 0 0 18px rgba(79, 88, 103, 0.16);
+          border-radius: 7px;
+          background-color: #ffffff;
+          padding: 25px 22px 29px;
+          margin-bottom: 30px;
+          p{
+            color: #2b2b2b;
+            font-family: 'Roboto-Regular';
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 20px;
+            width: 49%;
+            display: inline-block;
+            padding: 3px 0 21px 0;
+            span{
+              color: #2b2b2b;
+              font-family: 'Roboto-Regular';
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 20px;
+            }
+          }
+          img{
+            float: right;
+          }
+          .btn_result{
+            padding: 15px 88px;
+            border-radius: 30px;
+            background-color: #37b99f;
+            color: #ffffff;
+            font-family: 'Roboto-Regular';
+            font-size: 16px;
+            font-weight: 400;
+            display: block;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+
+
+
+@media screen and (min-width:480px){
+
+}
+@media screen and (min-width: 768px){
+  .building{
+    padding: 0px 0 100px 0;
+    .container{
+      form{
+        padding: 54px 0 0 8px;
+        p{
+          padding: 22px 0 17px 0;
+        }
+        h3{
+          padding: 0 0 0px 0px;
+        }
+        .form_wrap{
+          padding: 37px 0 0px 0px;
+          .form-checkbox {
+            position: relative;
+            margin-top: 13px;
+            margin-bottom: 34px;
+          }
+        }
+        .form-buttons{
+          padding: 0px 0 50px 0;
+          margin-top: 39px;
+          a{
+            width: auto;
+            padding: 0 53px 0 53px;
+            margin: 33px 0 0 0;
+          }
+        }
+      }
+      .form_result{
+        .result_content{
+          flex-direction: row;
+          justify-content: space-between;
+          .result_box{
+            width: 32%;
+            height: 195px;
+            padding: 6px 15px 19px;
+            p{
+              width: 43%;
+
+            }
+            .btn_result{
+              display: table;
+              padding: 15px 20px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px){
+
+}
+@media screen and (min-width: 1260px){
+  .lifeInsurance_form{
+    .container{
+
+    }
+  }
+}

@@ -1,0 +1,196 @@
+.KB{
+  background-color: #fafafa;
+  padding: 20px 0 0 0;
+  .container{
+    form{
+      border-bottom: none;
+      .form_wrap{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0 35px 2px;
+      }
+    }
+    .company{
+      overflow-x: scroll;
+      h3{
+        color: #2c2c2c;
+        font-family: 'Roboto-Regular';
+        font-size: 20px;
+        font-weight: 400;
+        padding: 15px 0 34px 7px;
+      }
+      .tabs-box{
+        .tabs{
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          li{
+            cursor: pointer;
+            margin-right: 60px;
+
+            img{
+              max-height: 50px;
+
+              -webkit-filter: grayscale(100%);
+              -moz-filter: grayscale(100%);
+              -ms-filter: grayscale(100%);
+              -o-filter: grayscale(100%);
+              filter: grayscale(100%);
+              filter: gray; /* IE 6-9 */
+            }
+          }
+          .active{
+            img{
+              filter: none;
+            }
+          }
+        }
+        .tab_container{
+          padding: 16px 0 0 7px;
+          .tab_content{
+            h3{
+              font-family: 'Roboto-Regular';
+              font-size: 20px;
+              font-weight: 400;
+              padding: 18px 0 18px 2px;
+            }
+            .personal_sales {
+              font-family: 'Roboto-Regular';
+              font-size: 18px;
+              border-collapse: collapse;
+              text-align: center;
+              width: 100%;
+              border: 1px solid #d7d8df;
+            }
+            .personal_sales th{
+              color: #2c2c2c;
+              padding: 10px 20px;
+              width: 16.5%;
+              height: 60px;
+            }
+            .personal_sales td:first-child {
+              width:13%;
+              padding: 0 10px;
+
+            }
+            .personal_sales td {
+              width: 5.5%;
+              height: 80px;
+              color: #2c2c2c;
+              font-family: 'Roboto-Regular';
+              font-size: 16px;
+              font-weight: 400;
+              border-right: 1px solid #d7d8df;
+              border-left: 1px solid #d7d8df;
+              img{
+                display: block;
+                width: 100%;
+
+              }
+            }
+            .personal_sales tr{
+              color: #2c2c2c;
+              font-family: 'Roboto-Regular';
+              font-size: 16px;
+              font-weight: 700;
+            }
+            .personal_sales tr:first-child{
+              border: 1px solid #d7d8df;
+              td{
+                font-weight: 800;
+              }
+            }
+            .personal_sales tr:nth-child(3){
+              td{
+                font-weight: 800;
+              }
+            }
+            .personal_sales tr:nth-child(2) {
+              border: 1px solid #d7d8df;
+            }
+            .personal_sales tr:nth-child(2n) {
+              background: #f1f1f4;
+            }
+            .personal_sales th:first-child, td:first-child {
+
+            }
+            .chain_sales{
+              margin-bottom: 50px;
+              font-size: 18px;
+              text-align: center;
+              width: 100%;
+              border-collapse: collapse;
+              border: 1px solid #d7d8df;
+            }
+            .chain_sales td{
+              width: 25%;
+              height: 75px;
+              font-family: 'Roboto-Regular';
+              font-size: 16px;
+              font-weight: 500;
+              border-right:1px solid #d7d8df;
+            }
+            .chain_sales th{
+              width: 25%;
+              height: 75px;
+              font-family: 'Roboto-Regular';
+              font-size: 16px;
+              font-weight: 800;
+              border-right:1px solid #d7d8df;
+            }
+            .chain_sales tr:nth-child(2n) {
+              background: #f1f1f4;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:480px){
+
+}
+@media screen and (min-width: 768px) {
+  .KB{
+    .container{
+      form{
+        padding: 54px 0 0 8px;
+        h3{
+          padding: 0 0 5px 0px;
+        }
+        .form_wrap{
+          display: flex;
+          flex-direction: row;
+          .form_radio{
+            margin-right: 54px;
+          }
+        }
+      }
+      .company{
+        overflow-x: auto;
+        .tabs-box{
+          .tabs{
+            display: flex;
+            flex-direction: row;
+          }
+          .tab_container{
+            .tab_content{
+              .chain_sales{
+                width: 50%;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px){
+
+}
+@media screen and (min-width: 1260px){
+
+}
